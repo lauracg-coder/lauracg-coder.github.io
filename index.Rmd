@@ -1,0 +1,19 @@
+---
+title: "Laura's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# This is Laura Gomez
+![](Photos/IMG_7797 copy.jpg)
+
+
+# About me 
+[About](About.Rmd)
+
+
+# Links
+* [Linkedin](https://www.linkedin.com/in/laura-gomez-078651139/)
+
