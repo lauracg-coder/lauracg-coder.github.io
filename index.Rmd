@@ -11,7 +11,7 @@ output:
 
 
 # About me 
-[About](About.html)
+[About](about.html)
 #FIX MISTAKE
 
 
