@@ -8,7 +8,7 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<lauracgm98@gmail.com>
     - icon: fa-github fa-lg
-      href: http://github.com/<lauracg-coder>/
+      href: https://github.com/lauracg-coder
 output:
   html_document:
     theme: cerulean
