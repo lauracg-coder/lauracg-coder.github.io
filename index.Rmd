@@ -11,7 +11,8 @@ output:
 
 
 # About me 
-[About](About.Rmd)
+[About](About.html)
+#FIX MISTAKE
 
 
 # Links

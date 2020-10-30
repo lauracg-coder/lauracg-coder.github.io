@@ -7,10 +7,45 @@ output:
 ---
 
 # Education 
+* Columbia Mailman School of Public Health 
+  + Master of Science in Epidemiology 	 
+
+* University of California, Berkeley 
+  + B.A in Molecular Cellular Biology, Immunology & Pathogenesis of infectious diseases 
 
 # Work Experience
 
+* University of California Berkeley School of Public Health, Harris Lab: 	                           
+**Undergraduate Research Apprentice Research Fellow** [February 2018 - May 2019 ]
+  + Identifying and characterizing repeat DENV infections in the context of a long-term pediatric cohort study of dengue transmission in           Nicaragua
+  + Performing titration of dengue virus (DENV) reporter virus particles (RVPs) and neutralization assays 
+  + Maintaining cell lines such a Raji-DC-SIGN cells, test the level of expression of CD-209 on the Raji-DC SIGN cells periodically 
+  + Analyze and graph resulting data using Flojo and Prism Software                                                                                                    
+* UC Berkeley Minority Health/ Global Disparities Research Fellowship:  	 		  
+**Research Fellow** [January 2018-August 2018]                                                                                                     
+  + Helping categorize the Zika epidemic in Nicaragua by collecting information about potential risk factors and analyze blood samples from +    pediatric cohort study through a retrospective serological study
+  + Working to determine previous ZIKV infection via enzyme linked immunosorbent assay (ELISA) and correlate these results with associated risk     factors
+  + Assessing the Zika household transmission study and the Zika pediatric cohort to diagnose ZIKV infection 
+  
+* University of California Los Angeles School of Public Health, Schiestl Lab:	         
+**Research Assistant** [May 2017 – August 2017]
+  + Characterized the strain of Lactobacillus necessary for translation to a viable intervention reduction of genotoxicity 
+  + Employed microbiological techniques, prepared growth media, and conducted bacterial viability testing, DNA isolation, and data analysis 
+
+* Berkeley Student Learning Center: 	 							   
+**Undergraduate Organic Chemistry Tutor** [November 2018 – December 2019]
+  + Provide 5 hours of tutoring services a week for students enrolled in Chemistry 3A and enhance their learning
+  + Attend weekly 2 hour tutor training seminars, hold review sessions  and create review sample problems for users
+
+
 # Skills and Interest 
+
+* Languages: 
+  + Spanish and English 
+* Skills: 
+  + ELISA, Bacterial Viability testing, DNA isolation, Growth Media Preparation, Python, Microsoft Office
+* Interests: 
+  + traveling, hiking, rock climbing
 
 # Links
 
