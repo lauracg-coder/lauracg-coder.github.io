@@ -12,6 +12,22 @@ library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
+library(dplyr)
+
+data("ny_noaa")
+ny_noaa_df = ny_noaa %>% separate('date', c( 'year','month','day')) %>% 
+  mutate(
+    day = factor(day), 
+    prcp =  prcp/10,
+    prcp = as.integer(prcp), 
+    tmax = as.numeric(tmax), 
+    tmin = as.numeric(tmin), 
+    tmax = tmax/10,
+    tmin = tmin/10) %>% 
+  drop_na()  %>% 
+  filter(!prcp == 0, !snow == 0, !snwd == 0)  %>% 
+  select(-month,-day) # dont really need to do 
+  
 ```
 
 Column {data-width=650}
@@ -20,7 +36,13 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-
+scatter_plot = ny_noaa_df %>%
+  group_by(year) %>%
+  mutate(text_label = str_c("Year:", year)) %>%
+  plot_ly(y = ~tmax, x = ~tmin, color = ~year, type = "scatter", mode = "markers",text = ~text_label,
+   alpha = 0.5) 
+scatter_plot
+#decrease size
 ```
 
 Column {data-width=350}
@@ -29,12 +51,25 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-
+box_plot = ny_noaa_df %>%
+  group_by(year, id) %>%
+  mutate(average_tmax = mean(tmax)) %>%
+  #mutate(year = fct_reorder(year, tmax)) #is this necessary
+   #mutate( year = as.numeric(year)) %>% #is this necessary
+  plot_ly(
+    y = ~average_tmax, x = ~year, color = ~year, type = "box", colors = "viridis")
+box_plot
 ```
+  
 
 ### Chart C
 
 ```{r}
-
+bar_chart = ny_noaa_df %>% 
+  #group_by(year)
+  count(year) %>% 
+  mutate(year = fct_reorder(year, n)) %>% 
+  plot_ly(x = ~year, y = ~n, color = ~year, type = "bar", colors = "viridis")
+bar_chart
 ```
 

@@ -11,8 +11,7 @@ output:
 
 
 # About me 
-[About](about.html)
-#FIX MISTAKE
+[About](About.html)
 
 
 # Links
